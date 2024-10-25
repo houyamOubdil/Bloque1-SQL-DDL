@@ -25,7 +25,7 @@ public class CreateTables {
             stmt.executeUpdate(createDepartamento);
 
             System.out.println("Tables created successfully.");
-        } catch (Exception e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
     }
