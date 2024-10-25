@@ -21,7 +21,7 @@ public class UpdateTable {
             stm.executeUpdate(alterEmpleado);
 
             System.out.println("Table 'Empleado' updated successfully.");
-        } catch (Exception e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
     }
